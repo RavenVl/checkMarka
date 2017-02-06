@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TestFX.jnlp">
+  <information>
+    <title>TestFX</title>
+    <vendor>Unknown</vendor>
+    <description>TestFX</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TestFX.jar" size="8718" download="eager" />
+    <jar href="jssc.jar" size="152500" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1255" height="743" main-class="sample.Main"  name="TestFX" />
+  <update check="background"/>
+</jnlp>
